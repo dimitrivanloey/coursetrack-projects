@@ -1,11 +1,10 @@
 from PIL import Image
-
+from entries import VENUE
 
 DATE = '20220108'
-VENUE = 'my-venue'
 
 
-HOUR_LIST = ['1205', '1240', '1315', '1350', '1500', '1535']
+HOUR_LIST = ['1300']
 ADJUSTED_HOUR_LIST = []
 
 for n in range(len(HOUR_LIST)):
