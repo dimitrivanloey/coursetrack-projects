@@ -1,8 +1,8 @@
-# Enter the name of the excel sheet
+# Enter the name of the excel sheet example 'SAN_0801.xlsx'
 FILE = 'SAN_0801.xlsx'
 
 # Enter the date
-DATE = '9th January 2022'
+DATE = '20220122'
 
 # Enter the name of the venue example 'kempton-park'
 VENUE = 'sandown-park'

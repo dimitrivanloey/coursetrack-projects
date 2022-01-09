@@ -3,8 +3,11 @@ import numpy as np
 import webbrowser
 import os
 
-from entries import FILE, DATE, VENUE, HOURS_LIST, TITLES_LIST
+from entries import FILE, DATE as strDATE, VENUE, HOURS_LIST, TITLES_LIST
+from date_maker import date_maker
 
+
+DATE = date_maker(strDATE)
 
 for n in range(len(HOURS_LIST)):
     df = pd.read_excel(FILE, sheet_name=HOURS_LIST[n])
